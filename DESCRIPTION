@@ -1,0 +1,12 @@
+Package: LinkedInCompany
+Version: 0.1-0
+Title: Query basic company information from LinkedIn
+Description:  This accesses company information from LinkedIn via a user's account.
+Note: This breaks the terms of service of LinkedIn. We do not advocate for you using this.
+  It is an illustration of a general approach.
+Author: Duncan Temple Lang
+Maintainer: Duncan Temple Lang <duncan@r-project.org>
+License: BSD
+Depends: RSelenium
+Imports: RCurl, XML
+
