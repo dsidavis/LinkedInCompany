@@ -27,6 +27,9 @@ for(i in companyNames)  {
 }
 
 
+saveRDS(ans, "CompanyInfo.Rds")
+
+
 
 
 

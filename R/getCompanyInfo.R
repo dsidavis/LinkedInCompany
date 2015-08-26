@@ -8,7 +8,7 @@ function(doc)
                      xpathSApply(doc, sprintf("//li[contains(@class, '%s')]//p", t), xmlValue))
 
     names(ans) = els
-    trim(ans)
+    lapply(ans, trim)
 }
 
 searchCompany =
